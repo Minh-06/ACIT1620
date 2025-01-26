@@ -1,0 +1,23 @@
+/*
+input[type="text"] {
+    border: 2px solid blue;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+      font-weight: bold;
+}
+
+body {
+      font-size: 14px;
+}
+
+font-size: 150%;
+*/
+
+a:hover {
+    color: red;
+}
