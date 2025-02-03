@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+        .translate {
+            width: 150px;
+            padding: 20px;
+            background-color: lightblue;
+            text-align: center;
+            transition: transform 0.5s ease;
+        }
+
+        .translate:hover {
+            transform: translateY(50px);
+        }
+
+        .rotate.hover {
+            transform: rotate(-45deg);
+        }
+
+        .scale {
+            width: 150px;
+            padding: 20px;
+            margin-top: 50px;
+            background-color: lightgreen;
+            text-align: center;
+            transition: transform 0.5s ease;
+        }
+        .scale.hover {
+            transform: skew(20deg, 10deg);
+        }
+        .matrix:hover {
+            transform: transform(1, 0.5, 1, -0.5, 1, 30, 20);
+        }
+
+        body {
+            display: flex;
+        }
+
+        p {
+            animation-duration: 3s;
+            animation-name: ;
+        }
+        
+        @keyframes slidein {
+            from {
+                translate: 150Vw 0;
+                scale: 200% 1;
+            }
+        }
+
+        to {
+            translate: 0 0;
+            scale: 100% 1;
+        }
+
+        @keyframes growshrink {
+            25%
+            75% {
+                scale: 100%
+            }
+
+            50% {
+                scale: 200%;
+                color: magenta;
+            }
+        }
+</style>
+<body>
+    <div class="translate">Translate Me!</div>
+    <p>
+        The caterpillar and <span> Alice</span> looked at each other for somet ime silence:
+        at least the caterpillar took the hookah out of its hand, and adressed her in a 
+
+    </p>
+</body>
+</html>
